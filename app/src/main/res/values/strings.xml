@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">carona</string>
+
+    <string name="serverIp">192.168.1.7</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
