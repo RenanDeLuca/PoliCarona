@@ -1,0 +1,7 @@
+#Sun Oct 30 17:58:37 BRST 2016
+base.0=/home/flash/Documentos/workspace/PoliCarona-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b393533f96217421437abbd1fe107392f89d07ba
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/flash/Documentos/workspace/PoliCarona-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_50d79254bafdfa6c1b5a64e146a7e14cff3e5dcf/classes.dex
+base.1=/home/flash/Documentos/workspace/PoliCarona-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_50d79254bafdfa6c1b5a64e146a7e14cff3e5dcf
+file.0=/home/flash/Documentos/workspace/PoliCarona-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b393533f96217421437abbd1fe107392f89d07ba/classes.dex

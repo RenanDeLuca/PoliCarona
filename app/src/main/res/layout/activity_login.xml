@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -9,13 +10,76 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="lunadros.carona.LoginActivity">
 
-
     <TextView
+        android:text="Entrar:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Login Activity"
-        android:id="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Login"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_above="@+id/userName"
+        android:textColor="@android:color/background_dark"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nome"
+        android:id="@+id/userName"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:inputType="textPersonName"
+        android:minWidth="300sp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="Senha"
+        android:layout_below="@+id/userName"
+        android:layout_alignRight="@+id/userName"
+        android:layout_alignEnd="@+id/userName"
+        android:id="@+id/password"
+        android:minWidth="300sp"
+        />
+
+    <Button
+        android:text="Entrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enter"
+        android:minHeight="58sp"
+        android:minWidth="300sp"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        />
+
+    <CheckBox
+        android:text="Lembrar Usuário"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rememberMe"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/enter"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:text="Não é cadastrado? Clique aqui!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/register"
+        android:textSize="14sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:clickable="true"
+        android:textColor="@color/colorPrimary"
+        />
+
 </RelativeLayout>
